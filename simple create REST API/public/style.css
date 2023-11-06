@@ -1,0 +1,82 @@
+/* Style the page title */
+h1 {
+  text-align: center;
+  font-size: 28px;
+  margin: 20px 0;
+  color: #007BFF;
+}
+
+/* Style each post container */
+.post {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the username in each post */
+.user {
+  font-weight: bold;
+  color: #007BFF;
+  font-size: 20px;
+}
+
+/* Style the content in each post */
+.content {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+/* Style the container for post actions */
+.post-actions {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-top: 10px;
+}
+
+/* Style the "See in details" and "Edit" links */
+.details-link,
+.edit-link {
+  text-decoration: none;
+  background-color: #007BFF;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-right: 10px;
+  transition: background-color 0.3s;
+}
+
+/* Style the "Delete post" button */
+.delete-button {
+  background-color: #dc3545;
+  color: #fff;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Style the "create new" link */
+.anker a {
+  display: flex;
+  justify-content: center;
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 18px;
+  transition: background-color 0.3s;
+}
+
+/* Change link color on hover */
+.anker a:hover {
+  background-color: #0056b3;
+}
+
